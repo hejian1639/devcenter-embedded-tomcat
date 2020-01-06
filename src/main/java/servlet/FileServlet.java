@@ -12,7 +12,7 @@ import java.io.InputStream;
 import java.net.URLConnection;
 import java.nio.file.Files;
 
-public class FileServlet extends HttpServlet {
+public class FileServlet extends FiberHttpServlet {
     String fileName;
 
     public FileServlet(String fileName) {

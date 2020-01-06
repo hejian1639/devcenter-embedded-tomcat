@@ -13,7 +13,7 @@ import java.io.InputStream;
 import java.net.FileNameMap;
 import java.net.URLConnection;
 
-public class MatchServlet extends HttpServlet {
+public class MatchServlet extends FiberHttpServlet {
 
 
     @Override

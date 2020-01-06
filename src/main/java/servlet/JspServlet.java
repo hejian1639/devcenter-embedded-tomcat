@@ -12,7 +12,7 @@ import java.io.*;
 import java.net.URL;
 import java.net.URLClassLoader;
 
-public class JspServlet extends HttpServlet {
+public class JspServlet extends FiberHttpServlet {
     String basedir;
     String fileName;
 
